@@ -1,0 +1,74 @@
+#toplevel_page_ai1wm_export,
+#toplevel_page_custom-acf-settings,
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-updates,
+#wp-admin-bar-comments,
+#wp-admin-bar-new-content,
+#toplevel_page_cptui_main_menu,
+#wpfooter,
+#toplevel_page_actions-page,
+#dashboard_site_health,
+#dashboard_quick_press,
+#dashboard_right_now,
+#dashboard_primary,
+#dashboard_activity,
+#toplevel_page_smart-log>ul>li:nth-child(3),
+#duplicator_dashboard_widget,
+#adminmenu>li:nth-child(3),
+.mce-container-body div:nth-child(4),
+.mce-container-body div:nth-child(5),
+.mce-container-body div:nth-child(6),
+.mce-container-body div:nth-child(7),
+.mce-container-body div:nth-child(8),
+.mce-container-body div:nth-child(9),
+.mce-container-body div:nth-child(11),
+.mce-container-body div:nth-child(12),
+.mce-container-body div:nth-child(13),
+#toplevel_page_custom-blog>ul>li.wp-first-item.current>a,
+#toplevel_page_custom-others>ul>li.wp-first-item.current>a,
+.mce-listbox,
+.trade_status_article .toggleWrapper,
+#trade_status_article,
+#adminmenu #toplevel_page_logs-page,
+#toplevel_page_custom-clients>ul>li.wp-first-item,
+#toplevel_page_discord-login-settings,
+#toplevel_page_custom-others>ul>li.wp-first-item,
+#toplevel_page_simple_wp_membership,
+#toplevel_page_google-login-settings,
+#toplevel_page_duplicator,
+.acf-editor-wrap .wp-media-buttons,
+#toplevel_page_actions-page,
+#toplevel_page_logs-page,
+#toplevel_page_uncompleted-actions-on-discord,
+#adminmenu li.wp-menu-separator,
+.update-message {
+    display: none !important;
+}
+
+.post-type-post .trade_status_article,
+.post-type-post #trade_status_article {
+    display: block !important;
+    margin-left: auto;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.post-type-post .toggleWrapper {
+    display: block !important;
+}
+
+/* Connected Discord accounts (Page) */
+
+.toplevel_page_connected_discord_accounts .tablenav-pages .page-numbers {
+    padding: 3px 8px;
+    border: 1px solid #ccc;
+    margin: 0px 1px;
+    text-decoration: none;
+    color: #434343;
+}
+
+.toplevel_page_connected_discord_accounts .tablenav-pages .page-numbers.current {
+    border: 1px solid #2371b1;
+    background: #2371b1;
+    color: #fff;
+}

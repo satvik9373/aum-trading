@@ -1,0 +1,1600 @@
+h1 .word {
+    overflow: hidden;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title .word div,
+.specializing-title .word div {
+    line-height: 1.1;
+}
+
+.header {
+    opacity: 0;
+    transform: translateY(-20%);
+    animation: slideUp 0.6s 2.4s ease forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.video-container iframe {
+    height: auto;
+}
+
+.video-wrap p {
+    display: block;
+}
+
+@media (max-width: 990px) {
+    .wrapper {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .partners-item__tooltip {
+        padding: 15px;
+        overflow: auto;
+    }
+    .partners-item__tooltip .partners-item__tooltip-desc {
+        height: auto;
+    }
+    .partners-item__tooltip .partners-item__tooltip-link {
+        position: relative;
+        transform: none;
+        margin: 25px auto 0;
+        display: block;
+    }
+}
+
+.learn-img,
+.learn-item__img {
+    background-blend-mode: lighten, normal, normal;
+}
+
+.learn-img:after,
+.learn-item__img:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -47px;
+    top: 60px;
+    width: 94px;
+    height: 94px;
+    background: url("../img/svg/learn-icon.svg") center center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+    .learn-img:after,
+    .learn-item__img:after {
+        width: 64px;
+        height: 64px;
+        left: -32px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .learn-img:after,
+    .learn-item__img:after {
+        width: 50px;
+        height: 50px;
+        left: 0;
+    }
+}
+
+.learn-img:before,
+.learn-item__img:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: -18px;
+    width: 58px;
+    height: 36px;
+    background: url("../img/svg/arrow-top-green.svg") center center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition-delay: 0.4s;
+}
+
+@media screen and (max-width: 991px) {
+    .learn-img:before,
+    .learn-item__img:before {
+        width: 30px;
+        height: 19px;
+        bottom: -9px;
+    }
+}
+
+.learn-img.active:after,
+.learn-img.active:before,
+.learn-item__img.active:after,
+.learn-item__img.active:before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.learn-img-wrap,
+.learn-item__img-wrap {
+    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
+.learn-img img,
+.learn-item__img img {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.learn-item.active .learn-item__img:after,
+.learn-item.active .learn-item__img:before {
+    opacity: 1;
+}
+
+.learn-item .learn-item__img {
+    position: relative;
+    padding-left: 25px;
+}
+
+.pricing-item {
+    position: relative;
+}
+
+.pricing-item .pricing-item__slogan {
+    position: relative;
+    z-index: 2;
+}
+
+.pricing-item__media {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 1;
+}
+
+.pricing-item svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pricing-item svg path:nth-child(even):nth-child(1) {
+    animation: skew 4.5s infinite backwards 0.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(2) {
+    animation: skew 4.5s infinite backwards 0.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(3) {
+    animation: skew 4.5s infinite backwards 0.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(4) {
+    animation: skew 4.5s infinite backwards 0.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(5) {
+    animation: skew 4.5s infinite backwards 1s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(6) {
+    animation: skew 4.5s infinite backwards 1.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(7) {
+    animation: skew 4.5s infinite backwards 1.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(8) {
+    animation: skew 4.5s infinite backwards 1.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(9) {
+    animation: skew 4.5s infinite backwards 1.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(10) {
+    animation: skew 4.5s infinite backwards 2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(11) {
+    animation: skew 4.5s infinite backwards 2.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(12) {
+    animation: skew 4.5s infinite backwards 2.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(13) {
+    animation: skew 4.5s infinite backwards 2.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(14) {
+    animation: skew 4.5s infinite backwards 2.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(15) {
+    animation: skew 4.5s infinite backwards 3s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(16) {
+    animation: skew 4.5s infinite backwards 3.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(17) {
+    animation: skew 4.5s infinite backwards 3.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(18) {
+    animation: skew 4.5s infinite backwards 3.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(19) {
+    animation: skew 4.5s infinite backwards 3.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(20) {
+    animation: skew 4.5s infinite backwards 4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(21) {
+    animation: skew 4.5s infinite backwards 4.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(22) {
+    animation: skew 4.5s infinite backwards 4.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(23) {
+    animation: skew 4.5s infinite backwards 4.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(24) {
+    animation: skew 4.5s infinite backwards 4.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(25) {
+    animation: skew 4.5s infinite backwards 5s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(26) {
+    animation: skew 4.5s infinite backwards 5.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(27) {
+    animation: skew 4.5s infinite backwards 5.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(28) {
+    animation: skew 4.5s infinite backwards 5.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(29) {
+    animation: skew 4.5s infinite backwards 5.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.pricing-item svg path:nth-child(even):nth-child(30) {
+    animation: skew 4.5s infinite backwards 6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes skew {
+    0% {
+        transform: rotateX(0);
+    }
+    50% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0);
+    }
+}
+
+.banner-icon,
+.banner-title,
+.banner-link {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-wrap {
+    position: relative;
+}
+
+.banner-svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 540px;
+    height: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .banner-svg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-svg svg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.banner-svg path:nth-child(even):nth-child(1) {
+    animation: skew 4.5s infinite backwards 0.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(2) {
+    animation: skew 4.5s infinite backwards 0.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(3) {
+    animation: skew 4.5s infinite backwards 0.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(4) {
+    animation: skew 4.5s infinite backwards 0.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(5) {
+    animation: skew 4.5s infinite backwards 1s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(6) {
+    animation: skew 4.5s infinite backwards 1.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(7) {
+    animation: skew 4.5s infinite backwards 1.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(8) {
+    animation: skew 4.5s infinite backwards 1.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(9) {
+    animation: skew 4.5s infinite backwards 1.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(10) {
+    animation: skew 4.5s infinite backwards 2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(11) {
+    animation: skew 4.5s infinite backwards 2.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(12) {
+    animation: skew 4.5s infinite backwards 2.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(13) {
+    animation: skew 4.5s infinite backwards 2.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(14) {
+    animation: skew 4.5s infinite backwards 2.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(15) {
+    animation: skew 4.5s infinite backwards 3s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(16) {
+    animation: skew 4.5s infinite backwards 3.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(17) {
+    animation: skew 4.5s infinite backwards 3.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(18) {
+    animation: skew 4.5s infinite backwards 3.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(19) {
+    animation: skew 4.5s infinite backwards 3.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(20) {
+    animation: skew 4.5s infinite backwards 4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(21) {
+    animation: skew 4.5s infinite backwards 4.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(22) {
+    animation: skew 4.5s infinite backwards 4.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(23) {
+    animation: skew 4.5s infinite backwards 4.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(24) {
+    animation: skew 4.5s infinite backwards 4.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(25) {
+    animation: skew 4.5s infinite backwards 5s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(26) {
+    animation: skew 4.5s infinite backwards 5.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(27) {
+    animation: skew 4.5s infinite backwards 5.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(28) {
+    animation: skew 4.5s infinite backwards 5.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(29) {
+    animation: skew 4.5s infinite backwards 5.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-svg path:nth-child(even):nth-child(30) {
+    animation: skew 4.5s infinite backwards 6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.banner-image {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 991px) {
+    .banner-image {
+        max-width: 280px;
+        transform: rotateY(180deg);
+        right: auto;
+        left: 0;
+    }
+}
+
+.specializing-title span:after {
+    opacity: 0;
+    animation: opacityIn 1 0.2s 2s linear forwards;
+}
+
+@keyframes opacityIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero-media__img {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-media__img:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #192B3F 0%, #192B3F 100%), linear-gradient(80deg, #192B3F 22.59%, rgba(25, 43, 63, 0) 50.47%), lightgray -220.692px -54.402px/160.769% 129.261% no-repeat;
+    opacity: 0.1;
+}
+
+.hero-media__back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-media__back svg {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(1) {
+    animation: skew 4.5s infinite backwards 0.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(2) {
+    animation: skew 4.5s infinite backwards 0.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(3) {
+    animation: skew 4.5s infinite backwards 0.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(4) {
+    animation: skew 4.5s infinite backwards 0.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(5) {
+    animation: skew 4.5s infinite backwards 1s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(6) {
+    animation: skew 4.5s infinite backwards 1.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(7) {
+    animation: skew 4.5s infinite backwards 1.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(8) {
+    animation: skew 4.5s infinite backwards 1.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(9) {
+    animation: skew 4.5s infinite backwards 1.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(10) {
+    animation: skew 4.5s infinite backwards 2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(11) {
+    animation: skew 4.5s infinite backwards 2.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(12) {
+    animation: skew 4.5s infinite backwards 2.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(13) {
+    animation: skew 4.5s infinite backwards 2.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(14) {
+    animation: skew 4.5s infinite backwards 2.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(15) {
+    animation: skew 4.5s infinite backwards 3s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(16) {
+    animation: skew 4.5s infinite backwards 3.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(17) {
+    animation: skew 4.5s infinite backwards 3.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(18) {
+    animation: skew 4.5s infinite backwards 3.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(19) {
+    animation: skew 4.5s infinite backwards 3.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(20) {
+    animation: skew 4.5s infinite backwards 4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(21) {
+    animation: skew 4.5s infinite backwards 4.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(22) {
+    animation: skew 4.5s infinite backwards 4.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(23) {
+    animation: skew 4.5s infinite backwards 4.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(24) {
+    animation: skew 4.5s infinite backwards 4.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(25) {
+    animation: skew 4.5s infinite backwards 5s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(26) {
+    animation: skew 4.5s infinite backwards 5.2s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(27) {
+    animation: skew 4.5s infinite backwards 5.4s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(28) {
+    animation: skew 4.5s infinite backwards 5.6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(29) {
+    animation: skew 4.5s infinite backwards 5.8s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__back svg path.animated:nth-child(even):nth-child(30) {
+    animation: skew 4.5s infinite backwards 6s;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+.hero-media__icon {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 990px) {
+    .hero-media__icon {
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-media__icon {
+        bottom: 2px;
+        left: -82px;
+    }
+}
+
+@keyframes auroraEffect {
+    0% {
+        filter: brightness(1) saturate(100%) drop-shadow(0 0 10px #1b5e20);
+    }
+    25% {
+        filter: brightness(0.6) saturate(40%) drop-shadow(0 -125px 120px #1b5e20);
+    }
+    50% {
+        filter: brightness(1) saturate(100%) drop-shadow(10px 10px 50px #1b5e20);
+    }
+    75% {
+        filter: brightness(1.6) saturate(250%) drop-shadow(0 -250px 50px #1b5e20);
+    }
+    100% {
+        filter: brightness(1) saturate(100%) drop-shadow(0 0 20px #1b5e20);
+    }
+}
+
+@keyframes transformAurora {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(60px);
+        @media screen and (max-width: 991px) {
+            .hero-media__icon {
+                transform: translateX(10px);
+            }
+        }
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(-30px);
+        @media screen and (max-width: 991px) {
+            .hero-media__icon {
+                transform: translateX(-10px);
+            }
+        }
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero-media__icon svg {
+    animation: auroraEffect 6s infinite cubic-bezier(0.25, 0.1, 0.25, 1), transformAurora 8s infinite linear;
+    will-change: filter, transform;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-right {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.learn-img__wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.learn-img__wrap .learn-img__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.learn-img__wrap .learn-img__icon svg {
+    width: 100%;
+    height: 100%;
+    animation: auroraEffect 8s infinite cubic-bezier(0.25, 0.1, 0.25, 1), transformAurora 10s infinite linear;
+    will-change: filter, transform;
+}
+
+.hero .hero-clients,
+.hero .hero-desc,
+.hero .hero-link,
+.hero .hero-media,
+.hero .hero-title {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mission .mission-label,
+.mission .mission-title {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.specializing .specializing-title,
+.specializing .specializing-desc,
+.specializing .specializing-scroll,
+.specializing .specializing-media,
+.specializing .specializing-title {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.contact .contact-label,
+.contact .contact-title,
+.contact .contact-info,
+.contact .contact-links,
+.contact .contact-social__item,
+.contact .contact-right {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.pricing-item:first-child {
+    background: #4FD298;
+}
+
+.banner-wrap:after {
+    display: none;
+}
+
+.banner-info {
+    position: static;
+    z-index: 1;
+}
+
+.learn-item {
+    position: relative;
+    z-index: 1;
+}
+
+.reviews-navigation__prev {
+    position: relative;
+}
+
+.reviews-navigation__prev:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    width: 100vw;
+    top: 0;
+    height: 100%;
+    background: #192B3F;
+    user-select: none;
+    pointer-events: none;
+}
+
+.reviews-navigation__next {
+    position: relative;
+}
+
+.reviews-navigation__next:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 100vw;
+    top: 0;
+    height: 100%;
+    background: #192B3F;
+    user-select: none;
+    pointer-events: none;
+}
+
+#menu-header-menu a,
+.footer-nav a {
+    transition: color 0.4s ease;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 150px;
+    gap: 10px;
+    text-decoration: none;
+    color: #5C728C;
+}
+
+.footer-info:hover svg {
+    transform: scale(1.1);
+}
+
+.footer-info:hover svg path.filled {
+    fill: #1dc3fc;
+}
+
+.footer-info svg {
+    width: 45px;
+    height: auto;
+    transform-origin: center;
+    transition: transform 0.4s ease;
+}
+
+.footer-info svg svg path {
+    transition: fill 0.4s ease;
+}
+
+.widget-content__empty-link {
+    transition: color 0.4s ease, background 0.4s ease;
+}
+
+.widget-content__empty-link svg path {
+    transition: fill 0.4s ease;
+}
+
+.cabinet-header__back .cabinet-header__back-title,
+.cabinet-header__membership {
+    transition: color 0.4s ease;
+}
+
+.cabinet-header__back .cabinet-header__back-icon .membership__ico path,
+.cabinet-header__membership svg path {
+    transition: fill 0.4s ease;
+}
+
+.cabinet-header__back .cabinet-header__back-icon .membership__arrow path {
+    transition: stroke 0.4s ease;
+}
+
+.hovers .contact-form button,
+.hovers .contact-form button span {
+    transition: all 0.4s ease;
+}
+
+.membership__button svg,
+.membership__button svg path {
+    transition: fill 0.4s ease;
+}
+
+@media screen and (max-width: 1400px) {
+    .cabinet-wrap .pricing-item__head {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .cabinet-wrap .pricing-item__label {
+        padding: 4px 9px;
+    }
+}
+
+.btn-green svg path {
+    transition: fill 0.4s ease;
+}
+
+.btn-guide svg path {
+    transition: stroke 0.4s ease;
+}
+
+.swpm_pass_reset_processing_msg_section .swpm_pass_reset_processing_msg {
+    color: white;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.simplex-link .cabinet-nav__link-title {
+    color: #E4A020;
+}
+
+.simplex-link:after {
+    background: url(../img/svg/return-icon-gold.svg) center center no-repeat;
+    background-size: contain;
+}
+
+.simplex-link:hover svg path {
+    fill: white;
+}
+
+.simplex-link:hover svg path:not(:first-child):not(:nth-child(2)) {
+    fill: #E4A020;
+}
+
+.ideas-step__item {
+    width: calc(33.33% - 10px);
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__item .ideas-step__item-wrap {
+        padding: 65px 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__item .ideas-step__item-title {
+        font-size: 24px;
+    }
+}
+
+.ideas-step__item:not(:first-child):after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    left: -38px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../img/svg/arrow-right-rounded.svg) center center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__item:not(:first-child):after {
+        display: none;
+    }
+}
+
+.ideas-step__item .ideas-step__item-label {
+    background: rgba(65, 90, 117, 0.2);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__item .ideas-step__item-label {
+        left: 0;
+        top: 0;
+        transform: translate(0);
+    }
+}
+
+.ideas-step__item:first-child .ideas-step__item-icon,
+.ideas-step__item:nth-child(2) .ideas-step__item-icon {
+    filter: drop-shadow(0px 7px 44px #336A52);
+}
+
+.ideas-step__item:last-child .ideas-step__item-icon {
+    filter: drop-shadow(0px 7px 44px #4B39BE);
+}
+
+.ideas-step__item:last-child .ideas-step__item-title span {
+    color: #7F6DF0;
+}
+
+.ideas-step__result-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 400px) {
+    .ideas-step__result-action {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ideas-step__result-wrap {
+        padding: 55px 20px;
+    }
+}
+
+.footer-nav a {
+    word-wrap: break-word;
+}
+
+.footer-info svg path {
+    transition: opacity 0.5s ease;
+}
+
+.footer-info svg {
+    overflow: visible;
+}
+
+.footer-info:hover svg {
+    transform: none;
+}
+
+@media screen and (max-width: 991px) {
+    #knowledge-centered {
+        transform: rotate(-90deg) translateX(-15px);
+        transform-origin: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews-item__author {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .learn-cta__action {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews-list .slick-track {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .reviews-item {
+        height: inherit !important;
+    }
+    .reviews-item__wrap {
+        height: 100% !important;
+        justify-content: space-between !important;
+    }
+}
+
+.authorization .authorization__union {
+    max-width: 1350px;
+    padding: 0 25px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25px;
+}
+
+@media screen and (max-width: 990px) {
+    .authorization .authorization__union {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .authorization .authorization__union .form__title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .authorization .authorization__union .form__description {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+
+.authorization .authorization__union .authorization__form {
+    margin-right: 0;
+    width: auto;
+    flex-basis: 450px;
+}
+
+@media screen and (max-width: 990px) {
+    .authorization .authorization__union .authorization__form {
+        flex-basis: auto;
+        width: 100%;
+    }
+}
+
+.authorization .authorization__union .authorization__block {
+    width: auto;
+    flex-basis: 672px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .authorization .authorization__union .authorization__block {
+        height: 580px;
+        flex-basis: 580px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .authorization .authorization__union .authorization__block {
+        height: 480px;
+        flex-basis: 480px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .authorization .authorization__union .form__social-registration {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .authorization .authorization__union .form__social-registration button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .authorization .authorization__union .form__block .swpm-text-field,
+    .authorization .authorization__union .swpm-login-form-submit {
+        width: 100%;
+    }
+}
+
+.cabinet-info .cabinet-header__membership {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.cabinet-info .membership__active {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet-info .membership__ico {
+        margin-left: 5px;
+    }
+    .cabinet-info .membership__ico svg {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+.cabinet-header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabinet-header__links a {
+    margin: 0 !important;
+    height: 52px;
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet-header__links a {
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet-header .cabinet-nav__link-title {
+        font-size: 13px;
+    }
+}
+
+.cabinet-header .cabinet-nav__link {
+    padding: 15px 50px 15px 18px;
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet-header .cabinet-nav__link {
+        padding: 12px 13px;
+    }
+    .cabinet-header .cabinet-nav__link:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cabinet-header .cabinet-nav__link {
+        padding: 12px 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cabinet-header .cabinet-nav__link-icon {
+        display: none;
+    }
+}
+
+.cabinet-header__back {
+    padding: 15px 22px;
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet-wrap {
+        background: #192B3F;
+        padding-top: 95px;
+    }
+}
+
+.cabinet-wrap .widget-content .content__union {
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.cabinet-wrap .content__membership {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .cabinet-wrap .widget-title {
+        font-size: 26px;
+        line-height: 140%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-content {
+        margin-top: 30px;
+    }
+}
+
+.widget-content .content__membership .membership__box {
+    width: 100%;
+    max-width: 550px;
+}
+
+@media screen and (max-width: 1080px) {
+    .widget-content .content__membership .membership__box {
+        max-width: 100%;
+    }
+}
+
+.widget-content .content__membership .membership__description {
+    width: 100%;
+    max-width: 295px;
+    margin: 0 auto;
+}
+
+.widget-content .content__membership .membership__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .widget-content .content__profile {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .widget-content .content__union {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .widget-content .pricing-list {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .widget-content .pricing-list .pricing-item__slogan {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .widget-content .pricing-list .pricing-item__features-item:not(:first-child) {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .widget-content .pricing-list .pricing-item__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cabinet {
+        padding-bottom: 80px;
+        background: #192B3F;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #swpm-editprofile-form>table>tbody>tr,
+    #swpm-editprofile-form>table,
+    #swpm-editprofile-form>table>tbody tr td,
+    #swpm-editprofile-form>table>tbody tr td input {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .widget-content .content__profile .delete__box,
+    .widget-content .content__profile .delete__title,
+    .widget-content .content__profile .delete__description {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-content .content__profile .delete__box {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-content .content__profile .profile__delete {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-content .content__profile .delete__button {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-content .content__profile .profile__delete {
+        margin-top: 23px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .widget-content .content__membership {
+        display: block;
+    }
+}
+
+.widget-content .content__membership .membership__button {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .swpm-edit-profile-form .swpm-edit-profile-submit {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body.home,
+    body.page-template-page-about,
+    body.page-template-page-contacts {
+        background: #192B3F;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home .learn-cta__action {
+        gap: 15px;
+    }
+    .home .learn-cta__action a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home .pricing-item__title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .partners-item img {
+        aspect-ratio: 320/120;
+    }
+}
+
+/*# sourceMappingURL=animation.css.map */

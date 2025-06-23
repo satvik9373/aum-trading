@@ -1,0 +1,266 @@
+.hovers .header-nav__item a:hover {
+    color: #4FD298;
+}
+
+.hovers .header-logo:hover img {
+    transform: scale(0.95);
+}
+
+.hovers .btn-dark:hover {
+    background: #4FD298;
+    color: #192B3F;
+}
+
+.hovers .btn-dark:hover svg path {
+    fill: #192B3F;
+    stroke: #192B3F;
+}
+
+.hovers .btn-green:hover {
+    background: rgba(79, 210, 152, 0.1);
+    color: #4FD298;
+}
+
+.hovers .btn-green:hover svg path {
+    fill: #4FD298;
+}
+
+.hovers .btnArrow-green:hover {
+    background: rgba(79, 210, 152, 0.1);
+}
+
+.hovers .btnArrow-green:hover span {
+    color: #4FD298;
+}
+
+.hovers .btnArrow-green:hover svg path {
+    fill: #4FD298;
+}
+
+.hovers .btnArrow-green:hover .btnArrow-icon {
+    background: url(../img/svg/arrow-right-green.svg) center center no-repeat;
+    background-size: cover;
+    transform: translateX(5px);
+}
+
+.hovers .partners-item__tooltip-link:hover svg rect {
+    fill: #4FD298;
+}
+
+.hovers .partners-item__tooltip-link:hover svg path {
+    fill: #192B3F;
+}
+
+.hovers .pricing-item__button a:hover {
+    background: rgba(79, 210, 152, 0.1);
+    color: #4FD298;
+}
+
+.hovers .reviews-navigation button:hover svg rect {
+    fill: #4FD298;
+    fill-opacity: 1;
+}
+
+.hovers .reviews-navigation button:hover svg path {
+    fill: #192B3F;
+}
+
+.hovers .reviews-link a:hover {
+    text-decoration: transparent;
+}
+
+.hovers .banner-link a:hover {
+    background: #283F58;
+}
+
+.hovers .banner-link a:hover span {
+    color: #4FD298;
+}
+
+.hovers .banner-link a:hover .banner-link__icon {
+    background: url(../img/svg/arrow-right-green.svg) center center no-repeat;
+    background-size: cover;
+    transform: translateX(5px);
+}
+
+.hovers .banner-link a:hover .banner-link__icon:after {
+    background: #4FD298;
+}
+
+.hovers .footer-social__item:hover svg path {
+    fill: #4FD298;
+}
+
+.hovers .footer-logo:hover svg {
+    transform: scale(0.95);
+}
+
+.hovers .footer-nav__item a:hover {
+    color: #4FD298;
+}
+
+.hovers .btnColor:hover:before {
+    opacity: 1;
+}
+
+.hovers .btnColor:hover .btnColor-icon:after {
+    background: white;
+}
+
+.hovers .btnColor:hover .btnColor-icon {
+    transform: translateX(3px);
+}
+
+.hovers .learn-cta__btn:hover:before,
+.hovers .cta-action__btn:hover:before {
+    opacity: 1;
+}
+
+.hovers .experts-item:hover {
+    cursor: pointer;
+}
+
+.hovers .experts-item:hover .experts-item__img img {
+    filter: none;
+}
+
+.hovers .experts-item:hover .experts-item__social-item svg path {
+    fill: #4FD298;
+}
+
+.hovers .specializing-scroll:hover {
+    border-color: #4FD298;
+}
+
+.hovers .blog-category__item:hover {
+    background: #4FD298;
+    color: #192B3F;
+}
+
+.hovers .blog-item .blog-item__title:hover {
+    color: #4FD298;
+}
+
+.hovers .related-item .related-item__title:hover {
+    color: #4FD298;
+}
+
+.hovers .blog-item__read:hover {
+    padding: 15px 20px 15px 30px;
+    transition: all 0.4s ease;
+    background: #4FD298;
+}
+
+.hovers .blog-item__read:hover .blog-item__read-title {
+    width: auto;
+    opacity: 1;
+    margin-right: 15px;
+    transition: all 0.4s ease;
+}
+
+.hovers .related-item__read:hover {
+    padding: 15px 20px 15px 30px;
+    transition: all 0.4s ease;
+    background: #4FD298;
+}
+
+.hovers .related-item__read:hover .related-item__read-title {
+    width: auto;
+    opacity: 1;
+    margin-right: 15px;
+    transition: all 0.4s ease;
+}
+
+.hovers .article-link__right:hover {
+    background: #4FD298;
+}
+
+.hovers .article-link__right:hover svg rect {
+    fill: #102031;
+}
+
+.hovers .article-social__item:hover svg path {
+    fill: #4FD298;
+}
+
+.hovers .related-link:hover {
+    background: #4FD298;
+}
+
+.hovers .ideas-step__item-action:hover {
+    background: #4FD298;
+    color: #102031;
+}
+
+.hovers .ideas-step__item-action:hover svg path {
+    fill: #102031;
+}
+
+.hovers .contact-form button:hover {
+    background: rgba(79, 210, 152, 0.1);
+}
+
+.hovers .contact-form button:hover span {
+    color: #4FD298;
+}
+
+.hovers .pricing-item__button button:hover {
+    background: rgba(79, 210, 152, 0.1);
+    color: #4FD298;
+}
+
+.hovers .contact-form button:hover svg {
+    transform: translateX(5px);
+}
+
+.hovers .contact-form button:hover svg path {
+    fill: #4FD298;
+}
+
+.hovers .contact-links__item-content:hover {
+    text-decoration-color: white;
+}
+
+.hovers .contact-social__item:hover svg path {
+    fill: #4FD298;
+}
+
+#menu-header-menu a:hover,
+.footer-nav a:hover {
+    color: #4FD298;
+}
+
+.widget-content__empty-link:hover {
+    color: #4FD298;
+    background: #192B3F;
+}
+
+.widget-content__empty-link:hover svg path {
+    fill: #4FD298;
+}
+
+.cabinet-header__back:hover .cabinet-header__back-title {
+    color: #4FD298;
+}
+
+.cabinet-header__back:hover .cabinet-header__back-icon svg path {
+    fill: #4FD298;
+}
+
+.cabinet-header__membership:hover {
+    color: #4FD298;
+}
+
+.cabinet-header__membership:hover .membership__ico path {
+    fill: #4FD298;
+}
+
+.cabinet-header__membership:hover .membership__arrow path {
+    stroke: #4FD298;
+}
+
+.cabinet-header__membership:hover {
+    border-color: transparent;
+}
+
+/*# sourceMappingURL=hover.css.map */

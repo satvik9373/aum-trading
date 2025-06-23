@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'), url('../fonts/Gilroy/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-SemiBold.woff') format('woff'), url('../fonts/Gilroy/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'), url('../fonts/Gilroy/Gilroy-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-Light.woff') format('woff'), url('../fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'), url('../fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'), url('../fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'), url('../fonts/Gilroy/Gilroy-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'), url('../fonts/Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-LightItalic.eot');
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'), url('../fonts/Gilroy/Gilroy-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-LightItalic.woff') format('woff'), url('../fonts/Gilroy/Gilroy-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-SemiBoldItalic.eot');
+    src: local('Gilroy SemiBold Italic'), local('Gilroy-SemiBoldItalic'), url('../fonts/Gilroy/Gilroy-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy/Gilroy-SemiBoldItalic.woff') format('woff'), url('../fonts/Gilroy/Gilroy-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('../fonts/Helvetica/HelveticaNowDisplay-Light.eot');
+    src: local('Helvetica Now Display Light'), local('HelveticaNowDisplay-Light'), url('../fonts/Helvetica/HelveticaNowDisplay-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowDisplay-Light.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowDisplay-Light.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('../fonts/Helvetica/HelveticaNowDisplay-Bold.eot');
+    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'), url('../fonts/Helvetica/HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowDisplay-Bold.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowDisplay-Bold.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
